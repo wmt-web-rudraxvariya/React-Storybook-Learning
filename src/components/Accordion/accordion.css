@@ -1,0 +1,25 @@
+.closedAcc {
+  transition: all 0.5s ease-in-out;
+  display: none;
+  height: 0px;
+  border-radius: 10px;
+  opacity: 0;
+  border: 1px solid brown;
+  margin-top: 5px;
+}
+.accOuter {
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.openAcc {
+  border: 1px solid brown;
+  transition: all 0.5s ease-in-out;
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: block;
+  opacity: 1;
+  padding: 10px;
+}
